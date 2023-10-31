@@ -54,7 +54,7 @@
 // 64-bit
 #ifdef IS64BITPLATFORM
 #ifndef __arm64__ // do not use SIMD instructions on Apple ARM M1
-#define USE_SIMD_INSTRUCTIONS
+//#define USE_SIMD_INSTRUCTIONS
 #endif
 #endif
 
